@@ -1,0 +1,111 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    background: azure;
+    display: flex;
+    font-family: Brush Script MT, cursive;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+}
+
+.wrapper {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background-color: lightblue;
+    border: 1px solid cadetblue;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px darkcyan;
+    color: black;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid darkcyan;
+    flex-basis: 96%;
+    height: 96%;
+    padding: 20px 30px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5%;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: inherit;
+    color: black;
+}
+
+.enter-button, .output {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+.calculate-your-bmi {
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: white;
+    border: groove gray;
+    border-radius: 5px;
+    box-shadow: inset;
+    color: black;
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: inherit;
+    height: 30px;
+}
+
+.calculate-your-bmi:hover {
+    box-shadow: 0 4px 40px lightskyblue;
+}
+
+.calculate-your-bmi:active {
+    background-color: gray;
+}
+
+#height, #weight, #calculated-output {
+    align-items: center;
+    background-color: white;
+    border: solid black;
+    border-radius: 5px;
+    font-family: inherit;
+    padding: 1px 10px;
+    height: 30px;
+    width: 200px;
+}
+
+
+.trivia {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border: dashed;
+    border-radius: 5px;
+    color: black;
+    font-family: inherit;
+    font-size: small;
+    overflow: auto;
+    padding: 10px 15px;
+    text-align: left;
+}
+
+.bmi-formula {
+    display: flex;
+    border: solid lightskyblue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 50%;
+}
