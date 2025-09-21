@@ -8,10 +8,30 @@
 </head>
 <body>
     <div class="wrapper"> BMI CALCULATOR
+        <section class="chart">
+            <div class="chart-image">
+                <a href="https://www.prokerala.com/health/bmi.htm">
+                    <img src="https://files.prokerala.com/health/images/bmi-category.png" 
+                    alt="BMI chart" id="bmi-category">
+                </a>
+            </div>
+        </section>
         <section class="calculator">
             <div class="input-group">
-                <input type="number" id="height" name="height" placeholder="Enter your Height(m)">
-                <input type="number" id="weight" name="weight" placeholder="Enter your Weight(kg)">
+                <input type="number" id="height" name="height" placeholder="Enter your Height">
+                <button id="reveal-height">m</button>
+                <div id="options-height" style="display: none;">
+                    <p data-unit="m">m</p>
+                    <p data-unit="cm">cm</p>
+                    <p data-unit="in">inch</p>
+                    <p data-unit="ft">ft</p>
+                </div>
+                <input type="number" id="weight" name="weight" placeholder="Enter your Weight">
+                <button id="reveal-weight">kg</button>
+                <div id="options-weight" style="display: none;">
+                    <p data-unit="kg">kg</p>
+                    <p data-unit="lbs">lbs</p>
+                </div>
             </div>
             <div class="enter-button">
                 <button class="calculate-your-bmi">Calculate</button>

@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    height: 100%;
+    height: 96%;
 }
 
 *,
@@ -17,7 +17,7 @@ body {
     display: flex;
     font-family: Brush Script MT, cursive;
     font-display: swap;
-    height: inherit;
+    height: auto;
     justify-content: center;
 }
 
@@ -25,15 +25,12 @@ body {
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
     background-color: lightblue;
-    border: 1px solid cadetblue;
+    border: 1px solid darkcyan;
     border-radius: 16px;
     box-shadow: 0 4px 30px darkcyan;
     color: black;
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    border: 1px solid darkcyan;
     flex-basis: 96%;
-    height: 96%;
+    height: 100%;
     padding: 20px 30px;
 }
 
@@ -59,7 +56,6 @@ body {
     background: white;
     border: groove gray;
     border-radius: 5px;
-    box-shadow: inset;
     color: black;
     flex-basis: 20%;
     font-family: inherit;
@@ -108,4 +104,46 @@ body {
     margin-top: 15px;
     margin-bottom: 15px;
     width: 50%;
+}
+
+.chart-image {
+    border-radius: 10px;
+    align-items: center;
+    background: rgb(250, 248, 248)
+}
+
+#bmi-category {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25%;
+    margin-right: 50%;
+    width: 50%;
+}
+
+#options-height, #options-weight {
+    font-size: small;
+    border: 1px;
+    border-radius: 14px;
+    padding: 10px;
+    background: lightskyblue;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+p:hover, #reveal-height:hover, #reveal-weight:hover {
+    background-color: lightblue;
+    box-shadow: 0 4px 40px lightskyblue;
+}
+
+#reveal-height, #reveal-weight {
+    display: flex;
+    padding: 5px 5px;
+    margin: 5px;
+    border: 2px;
+    border-radius: 5px;
+    border-color: black;
+    font-family: inherit;
+    background-color: lightskyblue;
+
 }
