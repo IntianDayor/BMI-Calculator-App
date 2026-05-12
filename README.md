@@ -12,6 +12,8 @@ A simple, interactive web application to calculate your Body Mass Index (BMI) ba
 ## Demo
 
 Open `index.html` in your browser to use the app.
+or
+Open `https://intiandayor.github.io/BMI-Calculator-App/`
 
 ## Usage
 
